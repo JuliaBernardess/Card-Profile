@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    box-shadow:0 4px 8px 0 #000;
+    margin: auto;
+    
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    color: gray;
+    font-size:24px ;
+}
+
+button{
+    background-color: #000;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.5;
+
+}
+button a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a{
+    color:#000;
+    font-size: 30px;
+    
+}
